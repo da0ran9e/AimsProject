@@ -26,7 +26,7 @@ public class DigitalVideoDisc {
     }
 
     public void setTitle(String title) {
-        this.title = this.title;
+        this.title = title;
     }
 
     public void setCategory(String category) {
