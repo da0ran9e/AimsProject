@@ -5,6 +5,13 @@ public class DigitalVideoDisc {
     private int length;
     private float cost;
     private static int nbDigitalVideoDiscs = 0;
+    private int id;
+    public int getId() {
+		return id;
+	}
+	public void setId() {
+		this.id = ++nbDigitalVideoDiscs;
+	}
     public String getTitle() {
         return title;
     }
