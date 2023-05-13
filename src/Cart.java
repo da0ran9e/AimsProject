@@ -69,36 +69,35 @@ public class Cart {
 		System.out.println("Total cost: " + this.totalCost());
 		System.out.println("***************************************************");
 	}
-        public void searchByID(int id) {
+    public void searchByID(int id) {
 		System.out.println("Search for: " + id);
 
 		DigitalVideoDisc dvd;
         for (int i = 0; i < this.qtyOrdered; i++) {
         	dvd = this.itemsOrder[i];
         	if (dvd.getId() == id) {
-        		System.out.println("Found: " + dvd.toString());
+        		System.out.println("Found "+ i +"matched: "+ dvd.toString());
         		return;
         	}
         }
-        System.out.println("Disc not found.");
+        System.out.println("Not found!");
 	}
 
 	public void searchByTitle(String keywords) {
 		System.out.println("- Search for: \"" + keywords + "\"");
 
-		int found = 0;
+		int matcher = 0;
 		DigitalVideoDisc dvd;
         for (int i = 0; i < this.qtyOrdered; i++) {
         	dvd = this.itemsOrder[i];
         	if (dvd.isMatch(keywords)) {
-        		System.out.println("Found: " + dvd.toString());
-        		// No return because there maybe many found
-        		found += 1;
+        		System.out.println("Found "+ i +"matched: "+ dvd.toString());
+        		matcher += 1;
         	}
         }
-        if (found == 0) {
-        	System.out.println("Disc not found.");
+        if (matcher == 0) {
+        	System.out.println("Not found!");
         }
 	}
 }
-}
+
