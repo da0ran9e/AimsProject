@@ -63,4 +63,13 @@ public class DigitalVideoDisc {
         this(diretor, category, title, cost);
         setLength(length);
     }
+    public String toString(){
+        return this.getTitle()+" - "+this.getCategory()+" - "+this.getDirector()+" - "+this.getLength()+": "+this.getCost()+" $";
+    }
+    public boolean isMatch(String title) {
+        if (this.title.toLowerCase().contains(title.toLowerCase())) {
+            return true;
+        }
+		return false;
+	}
 }
