@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a9b317d-796b-4754-9d24-dd80979d090e" name="Changes" comment="" />
+    <list default="true" id="8a9b317d-796b-4754-9d24-dd80979d090e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/disc/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ict/aims/disc/TestPassingParameter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -25,16 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/vuduc/OneDrive/Documents/GitHub/OOP_lab/Lab02/AimsProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vuduc/OneDrive/Documents/GitHub/OOP_lab/Lab02/AimsProject&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hust.soict.ict.aims.disc" />
+      <recent name="hust.soict.ict.aims.cart" />
+      <recent name="hust.soict.ict.aims.store" />
+      <recent name="hust.soict.ict.aims" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CartTest" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.aims.cart.CartTest" />
       <module name="AimsProject" />
       <method v="2">
         <option name="Make" enabled="true" />

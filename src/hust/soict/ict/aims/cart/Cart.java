@@ -1,3 +1,7 @@
+package hust.soict.ict.aims.cart;
+
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 import java.text.DecimalFormat;
 
 public class Cart {
@@ -20,7 +24,7 @@ public class Cart {
 
     public void addDigitalVideoDisc(DigitalVideoDisc disc) {
         if (full()) {
-            System.out.println("The Cart is almost full");
+            System.out.println("The hust.soict.ict.aims.cart.Cart is almost full");
         }
         else {
             itemsOrder[qtyOrdered] = disc;
@@ -29,10 +33,10 @@ public class Cart {
         }
     }
 
-//    public void addDigitalVideoDisc(DigitalVideoDisc [] dvdList){
-//        for(DigitalVideoDisc disc:dvdList){
+//    public void addDigitalVideoDisc(hust.soict.ict.aims.disc.DigitalVideoDisc [] dvdList){
+//        for(hust.soict.ict.aims.disc.DigitalVideoDisc disc:dvdList){
 //            if (full()) {
-//                System.out.println("The Cart is almost full");
+//                System.out.println("The hust.soict.ict.aims.cart.Cart is almost full");
 //                break;
 //            }
 //            else {
@@ -46,7 +50,7 @@ public class Cart {
     public void addDigitalVideoDisc(DigitalVideoDisc... dvdList){
         for(DigitalVideoDisc disc:dvdList){
             if (full()) {
-                System.out.println("The Cart is almost full");
+                System.out.println("The hust.soict.ict.aims.cart.Cart is almost full");
                 break;
             }
             else {

@@ -1,3 +1,5 @@
+package hust.soict.ict.aims.disc;
+
 public class DigitalVideoDisc {
     private String title;
     private String category;
@@ -51,22 +53,22 @@ public class DigitalVideoDisc {
     public void setCost(float cost) {
         this.cost = cost;
     }
-    DigitalVideoDisc(String title) {
+    public DigitalVideoDisc(String title) {
         setTitle(title);
     }
 
-    DigitalVideoDisc(String title, String category, float cost) {
+    public DigitalVideoDisc(String title, String category, float cost) {
         this(title);
         setCategory(category);
         setCost(cost);
     }
 
-    DigitalVideoDisc(String director, String category, String title, float cost) {
+    public DigitalVideoDisc(String director, String category, String title, float cost) {
         this(title, category, cost);
         setDirector(director);
     }
 
-    DigitalVideoDisc(String title, String category, String director, int length, float cost) {
+    public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
         this(director, category, title, cost);
         setLength(length);
     }
