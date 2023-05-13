@@ -4,7 +4,14 @@ public class DigitalVideoDisc {
     private String director;
     private int length;
     private float cost;
-
+    private static int nbDigitalVideoDiscs = 0;
+    private int id;
+    public int getId() {
+		return id;
+	}
+	public void setId() {
+		this.id = ++nbDigitalVideoDiscs;
+	}
     public String getTitle() {
         return title;
     }
@@ -26,7 +33,7 @@ public class DigitalVideoDisc {
     }
 
     public void setTitle(String title) {
-        this.title = this.title;
+        this.title = title;
     }
 
     public void setCategory(String category) {
@@ -55,12 +62,21 @@ public class DigitalVideoDisc {
     }
 
     DigitalVideoDisc(String director, String category, String title, float cost) {
-        this(category, title, cost);
+        this(title, category, cost);
         setDirector(director);
     }
 
-    DigitalVideoDisc(String title, String category, String diretor, int length, float cost) {
-        this(diretor, category, title, cost);
+    DigitalVideoDisc(String title, String category, String director, int length, float cost) {
+        this(director, category, title, cost);
         setLength(length);
     }
+    public String toString(){
+        return this.getTitle()+" - "+this.getCategory()+" - "+this.getDirector()+" - "+this.getLength()+": "+this.getCost()+" $";
+    }
+    public boolean isMatch(String title) {
+        if (this.title.toLowerCase().contains(title.toLowerCase())) {
+            return true;
+        }
+		return false;
+	}
 }
